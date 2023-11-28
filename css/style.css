@@ -554,6 +554,10 @@ button:focus {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .project__img {
+    width : 100%;
+  }
+
   .arrow-up {
     font-size : 2rem;
     width : 2.5rem;

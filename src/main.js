@@ -19,7 +19,7 @@ document.addEventListener('scroll', () => {
   home.style.opacity = 1-window.scrollY/homeHeight;
 })
 
-// Home 50% 지났을 때 aside 화살표 표시
+// Home 50% 지났을 때 aside 화살표 표시!
 const arrow = document.querySelector('.arrow-up');
 document.addEventListener('scroll', () => {
   if (window.scrollY < homeHeight*0.5) {

@@ -408,7 +408,7 @@ button:focus {
   transform : translateY(0px);
 }
 
-.project__title:after {
+.project__title::after {
   content : '';
   display : block;
   position : relative;

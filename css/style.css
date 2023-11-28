@@ -198,6 +198,10 @@ button:focus {
   outline : 2px solid var(--color-accent);
 }
 
+.home__container {
+  padding-top : 6rem;
+}
+
 /* About */
 .majors {
   display : flex;
